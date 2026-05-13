@@ -2,9 +2,5 @@
   "builds": [
     { "src": "api/index.py", "use": "@vercel/python" },
     { "src": "dashboard-ui/package.json", "use": "@vercel/static-build", "config": { "distDir": "dist" } }
-  ],
-  "routes": [
-    { "src": "/api/(.*)", "dest": "api/index.py" },
-    { "src": "/(.*)", "dest": "/dashboard-ui/dist/$1" }
   ]
 }
