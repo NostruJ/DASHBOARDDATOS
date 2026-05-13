@@ -1,0 +1,12 @@
+node_modules/
+__pycache__/
+*.pyc
+dist/
+base/
+*.csv
+.env
+DOCUMENTACION.md
+.vercel
+
+# Credenciales y datos sensibles
+mapaibague-*.json
