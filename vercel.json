@@ -18,8 +18,11 @@
       "dest": "dashboard-api/main.py"
     },
     {
+      "handle": "filesystem"
+    },
+    {
       "src": "/(.*)",
-      "dest": "dashboard-ui/dist/$1"
+      "dest": "/dashboard-ui/dist/$1"
     }
   ]
 }
